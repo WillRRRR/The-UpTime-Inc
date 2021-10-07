@@ -1,0 +1,195 @@
+[STEP] [2021-10-07 14:41:33] Looking for PHP CLI executable file.
+[WARN] [2021-10-07 14:41:34] Could not find proper PHP CLI executable, this process may be unstable.
+[WARN] [2021-10-07 14:41:34] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2021-10-07 14:41:34] Initializing backup...
+[INFO] [2021-10-07 14:41:34] Backup & Migration version: 1.1.5
+[INFO] [2021-10-07 14:41:34] Site which will be backed up: http://the-uptime-inc.local
+[INFO] [2021-10-07 14:41:34] PHP Version: 7.4.1
+[INFO] [2021-10-07 14:41:34] Web server: nginx/1.16.0
+[INFO] [2021-10-07 14:41:34] Max execution time (in seconds): 259200
+[INFO] [2021-10-07 14:41:34] Max rows per query (this site): 800
+[INFO] [2021-10-07 14:41:34] Checking if backup dir is writable...
+[INFO] [2021-10-07 14:41:34] Initializing custom error handler
+[SUCCESS] [2021-10-07 14:41:34] Yup it is writable...
+[STEP] [2021-10-07 14:41:34] Scanning files...
+[WARN] [2021-10-07 14:41:34] This file is quite big consider to exclude it, if backup fails: /Users/ja1040665/Local Sites/the-uptime-inc/app/public/wp-content/ai1wm-backups/the-uptime-inc.local-20210927-135342-q1lnvy.wpress (98.01 MB)
+[STEP] [2021-10-07 14:41:34] Checking free space, reserving...
+[INFO] [2021-10-07 14:41:34] Requires at least 232257548 bytes. [221.5 MB]
+[INFO] [2021-10-07 14:41:34] Disk free space function is not disabled - using it...
+[INFO] [2021-10-07 14:41:34] Checking this path/partition: /Users/ja1040665/Local Sites/the-uptime-inc/app/public/wp-content/backup-migration-E8k6MfKVj0/backups
+[SUCCESS] [2021-10-07 14:41:34] There is 1,326,651.44 MB free. [1.27 TB]
+[SUCCESS] [2021-10-07 14:41:34] Great! We have enough space.
+[SUCCESS] [2021-10-07 14:41:34] Confirmed, there is more than enough space, checked: 232257548 bytes
+[INFO] [2021-10-07 14:41:34] Scanning done - found 3668 files...
+[SUCCESS] [2021-10-07 14:41:34] Backup initialized...
+[STEP] [2021-10-07 14:41:34] Initializing archiving system...
+[SUCCESS] [2021-10-07 14:41:34] Archive system initialized...
+[STEP] [2021-10-07 14:41:34] Preparing map of files...
+[SUCCESS] [2021-10-07 14:41:34] Files prepared.
+[INFO] [2021-10-07 14:41:34] Starting compression process...
+[STEP] [2021-10-07 14:41:34] Smart memory calculation...
+[INFO] [2021-10-07 14:41:34] There is 384 MBs of memory to use
+[INFO] [2021-10-07 14:41:34] WordPress memory limit: 256 MBs
+[SUCCESS] [2021-10-07 14:41:34] Setting the safe limit to 86 MB
+[STEP] [2021-10-07 14:41:34] Making database backup (using V2 engine, requires at least v1.1.0 to restore)
+[INFO] [2021-10-07 14:41:34] Iterating database...
+[INFO] [2021-10-07 14:41:34] Memory usage after initialization: 7.35 MB
+[INFO] [2021-10-07 14:41:34] Scan found 65 tables (7067 rows), estimated total size: 8.79 MB.
+[INFO] [2021-10-07 14:41:34] Memory usage after getting table names: 7.39 MB 
+[INFO] [2021-10-07 14:41:34] Getting table recipes...
+[INFO] [2021-10-07 14:41:34] Table recipes have been exported.
+[INFO] [2021-10-07 14:41:34] Memory usage after loading recipes: 7.45 MB 
+[INFO] [2021-10-07 14:41:34] Saving recipes...
+[INFO] [2021-10-07 14:41:34] Recipes saved.
+[INFO] [2021-10-07 14:41:34] Memory usage after recipe off-load: 7.40 MB
+[INFO] [2021-10-07 14:41:34] Exporting table data...
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_acl (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_acl cloned, operation took: 0.00112 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_blocks (0.02 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_blocks cloned, operation took: 0.00080 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_countries (0.02 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_countries cloned, operation took: 0.00052 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_lab (0.02 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_lab cloned, operation took: 0.00047 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_lab_ip (0.02 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_lab_ip cloned, operation took: 0.00028 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_lab_net (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_lab_net cloned, operation took: 0.00042 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_log (0.06 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_log cloned, operation took: 0.00320 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_qmem (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_qmem cloned, operation took: 0.00050 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: cerber_traffic (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: cerber_traffic cloned, operation took: 0.00495 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: wp_actionscheduler_actions (0.14 MB)
+[INFO] [2021-10-07 14:41:34] Table: wp_actionscheduler_actions cloned, operation took: 0.01786 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: wp_actionscheduler_claims (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: wp_actionscheduler_claims cloned, operation took: 0.00078 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: wp_actionscheduler_groups (0.03 MB)
+[INFO] [2021-10-07 14:41:34] Table: wp_actionscheduler_groups cloned, operation took: 0.00121 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: wp_actionscheduler_logs (0.05 MB)
+[INFO] [2021-10-07 14:41:34] Table: wp_actionscheduler_logs cloned, operation took: 0.00254 ms
+[INFO] [2021-10-07 14:41:34] Getting data of table: wp_cerber_files (3.52 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_cerber_files cloned, operation took: 1.49469 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_cerber_sets (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_cerber_sets cloned, operation took: 0.00327 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_cerber_uss (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_cerber_uss cloned, operation took: 0.00127 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_commentmeta (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_commentmeta cloned, operation took: 0.00055 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_comments (0.09 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_comments cloned, operation took: 0.00080 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_cptslotsbk_forms (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_cptslotsbk_forms cloned, operation took: 0.00704 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_cptslotsbk_messages (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_cptslotsbk_messages cloned, operation took: 0.00048 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_frmt_form_entry (0.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_frmt_form_entry cloned, operation took: 0.19639 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_frmt_form_entry_meta (0.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_frmt_form_entry_meta cloned, operation took: 0.00046 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_frmt_form_views (0.08 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_frmt_form_views cloned, operation took: 0.02127 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_links (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_links cloned, operation took: 0.00065 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_options (2.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_options cloned, operation took: 0.07325 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_postmeta (0.13 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_postmeta cloned, operation took: 0.01651 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_posts (0.31 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_posts cloned, operation took: 0.07432 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_term_relationships (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_term_relationships cloned, operation took: 0.00136 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_term_taxonomy (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_term_taxonomy cloned, operation took: 0.00286 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_termmeta (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_termmeta cloned, operation took: 0.00130 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_terms (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_terms cloned, operation took: 0.00282 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_usermeta (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_usermeta cloned, operation took: 0.00439 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_users (0.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_users cloned, operation took: 0.00112 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_admin_note_actions (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_admin_note_actions cloned, operation took: 0.02767 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_admin_notes (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_admin_notes cloned, operation took: 0.01807 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_category_lookup (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_category_lookup cloned, operation took: 0.00097 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_customer_lookup (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_customer_lookup cloned, operation took: 0.00044 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_download_log (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_download_log cloned, operation took: 0.00034 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_order_coupon_lookup (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_order_coupon_lookup cloned, operation took: 0.00045 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_order_product_lookup (0.08 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_order_product_lookup cloned, operation took: 0.00044 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_order_stats (0.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_order_stats cloned, operation took: 0.00031 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_order_tax_lookup (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_order_tax_lookup cloned, operation took: 0.00028 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_product_meta_lookup (0.11 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_product_meta_lookup cloned, operation took: 0.00917 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_reserved_stock (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_reserved_stock cloned, operation took: 0.00062 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_tax_rate_classes (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_tax_rate_classes cloned, operation took: 0.00081 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_wc_webhooks (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_wc_webhooks cloned, operation took: 0.00048 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_api_keys (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_api_keys cloned, operation took: 0.00027 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_attribute_taxonomies (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_attribute_taxonomies cloned, operation took: 0.00173 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_downloadable_product_permissions (0.08 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_downloadable_product_permissions cloned, operation took: 0.00040 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_log (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_log cloned, operation took: 0.00032 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_order_itemmeta (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_order_itemmeta cloned, operation took: 0.00039 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_order_items (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_order_items cloned, operation took: 0.00041 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_payment_tokenmeta (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_payment_tokenmeta cloned, operation took: 0.00028 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_payment_tokens (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_payment_tokens cloned, operation took: 0.00030 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_sessions (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_sessions cloned, operation took: 0.00139 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_shipping_zone_locations (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_shipping_zone_locations cloned, operation took: 0.00072 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_shipping_zone_methods (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_shipping_zone_methods cloned, operation took: 0.00032 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_shipping_zones (0.02 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_shipping_zones cloned, operation took: 0.00039 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_tax_rate_locations (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_tax_rate_locations cloned, operation took: 0.00030 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_woocommerce_tax_rates (0.08 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_woocommerce_tax_rates cloned, operation took: 0.00036 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_yoast_indexable (0.09 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_yoast_indexable cloned, operation took: 0.01721 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_yoast_indexable_hierarchy (0.06 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_yoast_indexable_hierarchy cloned, operation took: 0.00111 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_yoast_migrations (0.03 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_yoast_migrations cloned, operation took: 0.00159 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_yoast_primary_term (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_yoast_primary_term cloned, operation took: 0.00044 ms
+[INFO] [2021-10-07 14:41:36] Getting data of table: wp_yoast_seo_links (0.05 MB)
+[INFO] [2021-10-07 14:41:36] Table: wp_yoast_seo_links cloned, operation took: 0.01350 ms
+[INFO] [2021-10-07 14:41:36] Table data exported.
+[INFO] [2021-10-07 14:41:36] Memory usage after data export: 7.40 MB
+[INFO] [2021-10-07 14:41:36] Entire process took: 2.1749 s
+[SUCCESS] [2021-10-07 14:41:36] Database backup finished
+[STEP] [2021-10-07 14:41:36] Making archive
+[INFO] [2021-10-07 14:41:36] Compressing...
+[INFO] [2021-10-07 14:41:36] Using PclZip module to create the backup
+[INFO] [2021-10-07 14:41:36] Legacy setting: Using default modules depending on user server
+[WARN] [2021-10-07 14:41:36] Backup will run as single-request, may be unstable...
+[INFO] [2021-10-07 14:41:36] Chunks contain 200 files.
+[INFO] [2021-10-07 14:41:37] Milestone: 1000/3668
+[INFO] [2021-10-07 14:41:38] Milestone: 2000/3668
+[INFO] [2021-10-07 14:41:39] Milestone: 3000/3668
+[INFO] [2021-10-07 14:41:44] Milestone: 3668/3668
+[SUCCESS] [2021-10-07 14:41:44] Compressed 3668 files
+[INFO] [2021-10-07 14:41:44] Archiving of 3668 files took: 10.07s
+[STEP] [2021-10-07 14:41:44] Finalizing backup
+[INFO] [2021-10-07 14:41:44] Adding manifest...
+[STEP] [2021-10-07 14:41:44] Closing files and archives
+[END-CODE] [2021-10-07 14:41:44] #001
